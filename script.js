@@ -30,5 +30,8 @@ document.querySelector('#push').onclick = function(){
                 this.classList.toggle('completed');
             }
         }
+
+        //clearing the input field after each entry
+        document.querySelector("#newtask input").value = "";
     }
 }
