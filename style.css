@@ -21,7 +21,8 @@ body{
     left: 0;
     right: 0;
     top: 30px;
-    padding: 30px 40px;
+    padding: 200px 40px;
+    
 }
 #newtask{
     position: relative;
@@ -58,4 +59,20 @@ body{
     color: #ffffff;
     cursor: pointer;
     outline: none;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #8052ec;
+}
+
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+
 }
